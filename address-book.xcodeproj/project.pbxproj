@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48BA64DA260F02E40012F445 /* URLImage in Frameworks */ = {isa = PBXBuildFile; productRef = 48BA64D9260F02E40012F445 /* URLImage */; };
 		48BA64DF260FA2840012F445 /* AddressBookViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48BA64DE260FA2840012F445 /* AddressBookViewModel.swift */; };
 		48FEAA72260D8ED1002B1211 /* address_bookApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEAA71260D8ED1002B1211 /* address_bookApp.swift */; };
-		48FEAA74260D8ED1002B1211 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEAA73260D8ED1002B1211 /* ContentView.swift */; };
 		48FEAA76260D8ED7002B1211 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FEAA75260D8ED7002B1211 /* Assets.xcassets */; };
 		48FEAA79260D8ED7002B1211 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FEAA78260D8ED7002B1211 /* Preview Assets.xcassets */; };
 		48FEAA84260D8F18002B1211 /* AddressBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FEAA83260D8F18002B1211 /* AddressBookView.swift */; };
@@ -25,7 +23,6 @@
 		48BA64DE260FA2840012F445 /* AddressBookViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookViewModel.swift; sourceTree = "<group>"; };
 		48FEAA6E260D8ED1002B1211 /* address-book.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "address-book.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FEAA71260D8ED1002B1211 /* address_bookApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = address_bookApp.swift; sourceTree = "<group>"; };
-		48FEAA73260D8ED1002B1211 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48FEAA75260D8ED7002B1211 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FEAA78260D8ED7002B1211 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48FEAA7A260D8ED7002B1211 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,7 +41,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48BA64DA260F02E40012F445 /* URLImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,7 +90,6 @@
 				48FEAA82260D8F04002B1211 /* Views */,
 				48FEAA81260D8EF5002B1211 /* Models */,
 				48FEAA71260D8ED1002B1211 /* address_bookApp.swift */,
-				48FEAA73260D8ED1002B1211 /* ContentView.swift */,
 				48FEAA75260D8ED7002B1211 /* Assets.xcassets */,
 				48FEAA7A260D8ED7002B1211 /* Info.plist */,
 				48FEAA77260D8ED7002B1211 /* Preview Content */,
@@ -154,7 +149,6 @@
 			);
 			name = "address-book";
 			packageProductDependencies = (
-				48BA64D9260F02E40012F445 /* URLImage */,
 			);
 			productName = "address-book";
 			productReference = 48FEAA6E260D8ED1002B1211 /* address-book.app */;
@@ -184,7 +178,6 @@
 			);
 			mainGroup = 48FEAA65260D8ED1002B1211;
 			packageReferences = (
-				48BA64D8260F02E40012F445 /* XCRemoteSwiftPackageReference "url-image" */,
 			);
 			productRefGroup = 48FEAA6F260D8ED1002B1211 /* Products */;
 			projectDirPath = "";
@@ -241,7 +234,6 @@
 				48FEAA8E260D8F8F002B1211 /* Contact.swift in Sources */,
 				48FEAA84260D8F18002B1211 /* AddressBookView.swift in Sources */,
 				48BA64DF260FA2840012F445 /* AddressBookViewModel.swift in Sources */,
-				48FEAA74260D8ED1002B1211 /* ContentView.swift in Sources */,
 				48FEAA92260DA7F1002B1211 /* Colors.swift in Sources */,
 				48FEAA72260D8ED1002B1211 /* address_bookApp.swift in Sources */,
 				48FEAA8A260D8F85002B1211 /* AddressBook.swift in Sources */,
@@ -436,25 +428,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		48BA64D8260F02E40012F445 /* XCRemoteSwiftPackageReference "url-image" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/dmytro-anokhin/url-image";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.3;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		48BA64D9260F02E40012F445 /* URLImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 48BA64D8260F02E40012F445 /* XCRemoteSwiftPackageReference "url-image" */;
-			productName = URLImage;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 48FEAA66260D8ED1002B1211 /* Project object */;
 }

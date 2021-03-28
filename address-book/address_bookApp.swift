@@ -11,7 +11,7 @@ import SwiftUI
 struct address_bookApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AddressBookView()
         }
     }
 }
